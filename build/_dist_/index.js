@@ -8,6 +8,9 @@ const url = "https://platzi-avo.vercel.app";
 const appNode = document.querySelector('#app');
 const all = document.querySelector("#title-container");
 
+//My page.
+const sallanez = document.querySelector('#sallanez');
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 //Modal elements.
 const modalCompenetContainer = document.querySelector('#modal-compenet-container');
@@ -122,6 +125,11 @@ modalActionBotton.addEventListener('click',toggleModel);
 
 modalBgContainer.addEventListener('click',toggleModel);
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+//To my github page.
+// sallanez.addEventListener('click', (e) => {
+//     e.preventDefault();
+// })
 
 fetchData();
 
